@@ -11,8 +11,6 @@ from pyparrot.networking.wifiConnection import WifiConnection
 try:
     from pyparrot.networking.bleConnection import BLEConnection
     BLEAvailable = True
-except:
-    BLEAvailable = False
 from pyparrot.utils.colorPrint import color_print
 from pyparrot.commandsandsensors.DroneCommandParser import DroneCommandParser
 from pyparrot.commandsandsensors.DroneSensorParser import DroneSensorParser
