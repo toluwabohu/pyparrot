@@ -8,9 +8,8 @@ Author: Valentin Benke, https://github.com/Vabe7, groundcam support
 """
 import time
 from pyparrot.networking.wifiConnection import WifiConnection
-try:
-    from pyparrot.networking.bleConnection import BLEConnection
-    BLEAvailable = True
+from pyparrot.networking.bleConnection import BLEConnection
+BLEAvailable = True
 from pyparrot.utils.colorPrint import color_print
 from pyparrot.commandsandsensors.DroneCommandParser import DroneCommandParser
 from pyparrot.commandsandsensors.DroneSensorParser import DroneSensorParser
